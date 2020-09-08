@@ -19,3 +19,8 @@ Config:
 - Add the command definitions to you commands.cfg (mine is provided as a sample)
 - Define the checks in your host configuration file. I used switch.cfg and provided as a sample.
 Note you will need to change the Nest router IP in the python scripts if you are not using the default address of 192.168.86.1
+
+Added checks for the nest points
+check_nestpoint calls check_nestpoint.py:
+- Takes uptime in seconds and converts to human readable output.
+- Uses host IP address configured in nagios
