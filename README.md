@@ -15,6 +15,7 @@ Config:
 - Install the python3 packages globally using PIP. I reference these ones: requests, json, time, pprint, datetime
 - Copy the check files to your libexec directory (mine is /usr/local/nagios/libexec
 - Change owner to your nagios user (mine was chown nagios:nagios)
+- Give execute permissions (chmod +x)
 - Add the command definitions to you commands.cfg (mine is provided as a sample)
 - Define the checks in your host configuration file. I used switch.cfg and provided as a sample.
 Note you will need to change the Nest router IP in the python scripts if you are not using the default address of 192.168.86.1
