@@ -1,7 +1,9 @@
 # nest-wifi-nagios-plugins
-Nagios plugins to monitor Google Nest WIFI
+# Nagios plugins to monitor Google Nest WIFI
 
 No SNMP available to monitor Google Nest WIFI routers, only a very basic API, so here is a way to get basic monitoring working.
+
+Please let me know if you have a better way of monitoring Google WIFI - tommysbeast@gmail.com
 
 check_nestonline calls check_nestonline.py:
 - Looks at the online status and reports output string and exit(0) if online, exit(2) if offline (CRITICAL)
