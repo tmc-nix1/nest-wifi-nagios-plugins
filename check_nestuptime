@@ -1,0 +1,1 @@
+python3 /usr/local/nagios/libexec/check_nestuptime.py
