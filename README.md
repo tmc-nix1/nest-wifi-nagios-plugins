@@ -27,3 +27,5 @@ Added checks for the nest points
 check_nestpoint calls check_nestpoint.py:
 - Takes uptime in seconds and converts to human readable output.
 - Uses host IP address configured in nagios
+
+git clone https://github.com/tmc-nix1/nest-wifi-nagios-plugins
