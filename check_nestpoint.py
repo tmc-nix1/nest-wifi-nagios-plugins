@@ -8,7 +8,7 @@ import sys
 
 # Construct the URL
 ip1 = sys.argv[1]
-#ip1 = "192.168.86.29"
+#ip1 = "192.168.0.29"
 
 url1 = "http://%s/api/v1/status" % (ip1)
 
