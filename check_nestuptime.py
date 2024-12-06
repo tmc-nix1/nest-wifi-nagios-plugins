@@ -7,7 +7,7 @@ import datetime
 
 ## Get the JSON response from Nest Router
 nestresponse = requests.get(
-    url="http://192.168.86.1/api/v1/status",
+    url="http://192.168.0.1/api/v1/status",
 ).json()
 
 ## Uptime string analysis
